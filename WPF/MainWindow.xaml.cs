@@ -27,7 +27,8 @@ namespace WPF
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            btnStart.Content = btnStart.Content == "Start" ? "Stop" : "Start";
+            //btnStart.Content = btnStart.Content == "Start" ? "Stop" : "Start";
+            ((Button)sender).Content = ((Button)sender).Content.ToString() == "Start" ? "Stop" : "Start";
         }
     }
 }
