@@ -5,8 +5,17 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="389" Width="661">
+        Title="Introduction to WPF" Height="800" Width="850" FontSize="64">
     <Grid Margin="32,0,61,36">
-        <Button x:Name="btnStart" Content="Click me" HorizontalAlignment="Center" Margin="0,169,0,0" VerticalAlignment="Top" Click="Button_Click" Width="148" Height="64" FontSize="24"/>
+        <!--<Button x:Name="btnStart" 
+                Content="Start" 
+                HorizontalAlignment="Center" 
+                Margin="0,169,0,0" VerticalAlignment="Top" 
+                Click="Button_Click" 
+                Width="148" 
+                Height="64" 
+                FontSize="24"
+                />-->
+        <Button Click="Button_Click" Content="Start"/>
     </Grid>
 </Window>
