@@ -53,4 +53,6 @@ namespace Binding
             txtInput.Focus();
         }
     }
+    //padding - внутренний отступ;
+    //marging - внешний отступ.
 }
