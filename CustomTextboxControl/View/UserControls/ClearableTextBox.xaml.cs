@@ -13,21 +13,21 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace MenuBar.View.UserControls
+namespace CustomTextboxControl.View.UserControls
 {
     /// <summary>
-    /// Interaction logic for MenuBar.xaml
+    /// Interaction logic for ClearableTextBox.xaml
     /// </summary>
-    public partial class MenuBar : UserControl
+    public partial class ClearableTextBox : UserControl
     {
-        public MenuBar()
+        public ClearableTextBox()
         {
             InitializeComponent();
         }
 
-        private void MenuItem_Click(object sender, RoutedEventArgs e)
+        private void btnClear_Click(object sender, RoutedEventArgs e)
         {
-            Application.Current.Shutdown();
+            txtInput.Text = "";
         }
     }
 }

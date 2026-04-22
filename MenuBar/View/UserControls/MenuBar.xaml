@@ -19,7 +19,7 @@
                 <MenuItem Header="Save"/>
                 <MenuItem Header="Save as"/>
                 <Separator/>
-                <MenuItem Header="Quit"/>
+                <MenuItem Header="Quit" Click="MenuItem_Click"/>
             </MenuItem>
             <MenuItem Header="Edit">
                 <MenuItem Header="Find"/>
@@ -29,5 +29,13 @@
                 <MenuItem Header="Redo"/>
             </MenuItem>
         </Menu>
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+            <Button Content="Button" Width="100" Margin="5"/>
+            <TextBox Grid.Column="1" Width="150" Margin="5"/>
+        </Grid>
     </Grid>
 </UserControl>

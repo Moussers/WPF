@@ -13,21 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace MenuBar.View.UserControls
+namespace CustomTextboxControl
 {
     /// <summary>
-    /// Interaction logic for MenuBar.xaml
+    /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MenuBar : UserControl
+    public partial class MainWindow : Window
     {
-        public MenuBar()
+        public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void MenuItem_Click(object sender, RoutedEventArgs e)
-        {
-            Application.Current.Shutdown();
         }
     }
 }
